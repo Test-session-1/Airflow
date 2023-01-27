@@ -1,5 +1,7 @@
 # Airflow
 
+docker build -t test-image5 .
+
 docker run -p 8080:8080 -p 8888:8888 -v /home/student_04_2fbf865f15a5/airflow_files:/usr/local/airflow -e AIRFLOW_HOME=/usr/local/airflow -it test-image
 
 
